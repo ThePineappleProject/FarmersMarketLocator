@@ -1,0 +1,18 @@
+<!-- A custom map element for displaying Farmer's Markets. -->
+<dom-module id="market-map">
+  <template>
+    <style>
+      google-map {
+        display: block;
+        height: 600px;
+      }
+    </style>
+    <google-map latitude="32.15591" longitude="-110.883805" zoom="11"></google-map>
+  </template>
+  <script>
+    Polymer({
+      is: 'market-map',
+      properties: {}
+    });
+  </script>
+</dom-module>
