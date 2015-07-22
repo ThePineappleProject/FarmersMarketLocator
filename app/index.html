@@ -9,7 +9,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
   
   <link rel="import" href="elements.html">
 
@@ -20,23 +20,12 @@
 <body unresolved class="fullbleed layout vertical">
   <template is="dom-bind" id="app">
     
-    <paper-drawer-panel>
-      <paper-header-panel drawer>
-        <paper-toolbar>
-          <div>Menu</div>
-        </paper-toolbar>
-        <div>Click on a pin to see more details about a market.</div>
-      </paper-header-panel>
-      <paper-header-panel main>
-        <paper-toolbar>
-          <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-          <div>Tucson Farmers Markets</div>
-        </paper-toolbar>
-        <paper-material elevation="1">
-          <h2>This is the app!</h2>
-        </paper-material>
-      </paper-header-panel>
-    </paper-drawer-panel>
+    <paper-toolbar>
+      <div>Tucson Farmers Markets</div>
+    </paper-toolbar>
+    <paper-material elevation="1">
+      <market-map></market-map>
+    </paper-material>
 
   </template>
   

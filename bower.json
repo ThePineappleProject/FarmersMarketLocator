@@ -1,5 +1,5 @@
 {
-  "name": "FarmersMarketLocator",
+  "name": "farmers-market-locator",
   "description": "Locator for farmers markets in Tucson AZ.",
   "homepage": "",
   "keywords": [
@@ -8,11 +8,8 @@
   "private": true,
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^1.0.0",
-    "paper-header-panel": "PolymerElements/paper-header-panel#^1.0.0",
-    "paper-icon-button": "PolymerElements/paper-icon-button#^1.0.0",
-    "paper-material": "PolymerElements/paper-material#^1.0.0",
-    "paper-toolbar": "PolymerElements/paper-toolbar#^1.0.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.0",
     "google-maps": "GoogleWebComponents/google-map#^1.0.0"
   }
 }
